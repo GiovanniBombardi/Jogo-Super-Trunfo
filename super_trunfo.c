@@ -46,7 +46,7 @@ int main(){
     scanf("%d", &pontostur1);
 
     densidadepop1 = (float)populacao1 / area1;
-    pibpercapita1 = (float)pib1 / populacao1;
+    pibpercapita1 = pib1 / (float)populacao1;
 
     printf("Carta N1 cadastrada com sucesso!\n");
 
@@ -82,7 +82,7 @@ int main(){
     scanf("%d", &pontostur2);
 
     densidadepop2 = (float)populacao2 / area2;
-    pibpercapita2 = (float)pib2 / populacao2;
+    pibpercapita2 = pib2 / (float)populacao2;
 
     printf("Carta N2 cadastrada com sucesso!\n");
 
